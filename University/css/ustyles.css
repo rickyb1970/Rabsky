@@ -1,0 +1,159 @@
+/* University styles */
+/* CSS reset rules */
+* {
+	margin:0px;
+	padding:0px; 
+}
+
+body {
+	   font-family:arial,verdana,sans-serif; 
+	   background-color: #c0c0c0;
+	   font-size:23px;
+}
+
+input,select {border-radius:10px;}
+
+.mainheader {
+	   margin: 0;
+	   background-color: #000;
+	   height: 100px;
+}
+
+.lefthead {
+    float:left;
+    height:100px;
+    width:920px;   
+}
+
+.headtext {
+	font-family: "Comic sans";
+    padding-left: 30px;
+	font-size: 80px;
+	color: #fff;
+}
+
+.righthead {
+    float:left;
+    /* background-color: #e3e3e3; */
+    height:100px;
+    width:400px;
+}
+
+.maindashboard {
+	   margin: 25px auto;
+	   width:600px;
+	   height:auto;	
+}
+
+.dashboard {
+	   margin: 25px auto;
+	   width:1500px;
+	   height:auto;
+	   /* border: 1px solid #c0c0c0 ; */
+}
+
+nav.dashboard section {
+	margin: 10px;
+	padding-top: 15px;
+	float:left;
+    height:250px;
+    width:300px;
+    border: 1px solid #c0c0c0; 
+    border-radius:50px;
+    text-align: center;
+} 
+
+nav.dashboard a {
+	color:#000;
+	text-decoration: none;
+}
+
+nav.dashboard section img { 
+	display:inline-block;
+	height:75%; 
+	vertical-align: middle;
+}
+
+nav.dashboard section img+div{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+nav.dashboard section:hover {
+	background-color: #d43;
+}
+
+nav.dashboard section:active {
+	background-color: #1f4;
+}
+
+#regholder {
+
+	  margin: 25px auto;
+	  padding: 10px;
+	  width:510px;
+	  height:310px;
+	  background-color: #c9c9c9;
+}
+
+form * {
+          font-size: 23px;
+}           
+
+.studlist {
+	  margin: 25px auto; 
+	  width:900px; 
+	  font-size:30px;  
+}
+
+.studlist .listdetails:hover {
+	background-color:#fff;
+}
+
+.listdiv {
+	margin:0 auto;
+	text-align: center;
+}
+
+td .backlink {
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
+td .backlink:hover {
+    background-color:#d43;
+}
+
+td .backlink:active {
+    background-color:#1f4;
+}
+
+.listdiv .goback {
+	float: left;
+}
+
+.listlink {
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+.listlink:hover {
+	color:#f00;
+}
+
+.button {
+	text-align: center;
+	display:block;
+	width:auto;
+	height:auto;
+}
+
+.button:hover {
+	background-color: #d43;
+}
+
+.button:active {
+	background-color: #1f4;
+}
